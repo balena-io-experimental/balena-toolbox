@@ -35,11 +35,11 @@ capitano.command(actions.ssh)
 # ---------- Sync Module ----------
 capitano.command(actions.sync)
 
-# ---------- Version Module ----------
-capitano.command(actions.version)
-
 # ---------- Help Module ----------
 capitano.command(actions.help.help)
+
+# ---------- Version Module ----------
+capitano.command(actions.version)
 
 update.notify()
 
