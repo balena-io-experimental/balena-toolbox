@@ -32,8 +32,8 @@ capitano.globalOption
 # ---------- SSH Module ----------
 capitano.command(actions.ssh)
 
-# ---------- Sync Module ----------
-capitano.command(actions.sync)
+# ---------- Deploy Module ----------
+capitano.command(actions.deploy)
 
 # ---------- Help Module ----------
 capitano.command(actions.help.help)

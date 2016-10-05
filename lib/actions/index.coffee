@@ -17,5 +17,5 @@ limitations under the License.
 module.exports =
 	version: require('./version')
 	help: require('./help')
-	sync: require('./sync')
+	deploy: require('./deploy')
 	ssh: require('./ssh')
